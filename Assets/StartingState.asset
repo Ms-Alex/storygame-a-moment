@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3953b37f3584b34a89c2690d0394e00, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "You've awaken to find yourself gasping for air, exposed. In front of
+    you, there are at least 10 people; 3 in white coats, and the others in uniforms.
+    Armed. Staring at you, . \r\n\r\nYou observe the room, unknown instincts hitting
+    you. On your left about a foot away, you spot 2 tables: one is a surgical table,
+    the other holds surgical equipment. Your eyes quickly fall on the scalpel. However,
+    past the tables is a door, with the words 'Exit' over it.\r\n\r\n1. Grab the scalpel,
+    and attempt to rid of those before you.\r\n\r\n2. Escape through the door, taking
+    your chances of what lies there after."
