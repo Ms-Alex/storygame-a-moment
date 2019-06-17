@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3953b37f3584b34a89c2690d0394e00, type: 3}
+  m_Name: A10
+  m_EditorClassIdentifier: 
+  storyText: "You grab a spring from the cot and straighten it out. You are aware
+    of every moment, assuring the guards aren't paying attention. You successfully
+    pick the lock, and open the cell. You see a wooden door on the opposite side of
+    the cell entrance.\r\n\r\nYou take a risk, and go through the door. You pass a
+    ladder that leads to a door and continue down the path...\n\n1. To continue..."
+  nextStates:
+  - {fileID: 11400000, guid: 2a4a5e6153f3b0c46a68eb2283126887, type: 2}
+  - {fileID: 0}

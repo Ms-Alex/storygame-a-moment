@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3953b37f3584b34a89c2690d0394e00, type: 3}
+  m_Name: A9
+  m_EditorClassIdentifier: 
+  storyText: "You fought hard, but they were no match for you with reinforcements
+    coming from all sides. You are thrown into the dungeon. Unfortunately, the book
+    you've taken from the library was taken from you.You need to get it back, and
+    reach your destination..\r\n\r\n1. Pick the key lock from your jail cell.\r\n\r\n2.
+    Trick the guard to coming to you, to get the cell key."
+  nextStates:
+  - {fileID: 11400000, guid: 13fe188565447e84e87976e6913f0245, type: 2}
+  - {fileID: 11400000, guid: 3b61d5eb707faa04fb0a16f22daea2e7, type: 2}

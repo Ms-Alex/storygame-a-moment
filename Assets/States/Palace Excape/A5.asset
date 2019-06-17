@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3953b37f3584b34a89c2690d0394e00, type: 3}
+  m_Name: A5
+  m_EditorClassIdentifier: 
+  storyText: "As you approach the greenhouse, you hear footsteps. You need to get
+    inside, so that you can get to the underground tunnels under a secret door on
+    the floor towards the back..\r\n\r\n1. You tread carefully inside, try not to
+    get seen.\r\n\r\n2.  You make noise outside, so that whoever is inside will want
+    to go out and investigate the sound."
+  nextStates:
+  - {fileID: 11400000, guid: 6b7390a55e6130647af6186f0160e0b0, type: 2}
+  - {fileID: 11400000, guid: 6b7390a55e6130647af6186f0160e0b0, type: 2}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3953b37f3584b34a89c2690d0394e00, type: 3}
+  m_Name: A3
+  m_EditorClassIdentifier: 
+  storyText: "You approach the entrance to the maze garden. You know that the palace
+    gates face the north. To reach the fence the fence to the outside, you should
+    stay aligned with the \r\n\r\n1. Full moon.\r\n\r\n2.  Polaris."
+  nextStates:
+  - {fileID: 11400000, guid: 6fd634d79a22e5e479d06ba3c2e75fa5, type: 2}
+  - {fileID: 11400000, guid: 2a4a5e6153f3b0c46a68eb2283126887, type: 2}

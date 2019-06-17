@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3953b37f3584b34a89c2690d0394e00, type: 3}
+  m_Name: A6
+  m_EditorClassIdentifier: 
+  storyText: "You successfully get to the back of the greenhouse, and reach the door
+    on the ground. You silently climb down. \r\n\nYou come across two passage way.
+    Your informant mentioned this door, but not which direction to go to leave the
+    palace.\n\r\n1. Take the hall towards the left.\r\n\r\n2.  Take the hall towards
+    the right."
+  nextStates:
+  - {fileID: 11400000, guid: 2a4a5e6153f3b0c46a68eb2283126887, type: 2}
+  - {fileID: 11400000, guid: 9ef5b0b287e675049b90ffe4ea82910a, type: 2}

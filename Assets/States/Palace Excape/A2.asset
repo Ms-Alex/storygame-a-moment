@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3953b37f3584b34a89c2690d0394e00, type: 3}
+  m_Name: A2
+  m_EditorClassIdentifier: 
+  storyText: "From the second story, you fall into a tree brush; no injuries attained.
+    You check to make sure the book you found is still on you. It is, good. As it
+    is nightfall, You need to leave the palace grounds.. \r\n\r\n1. You go towards
+    the palace greenhouse, as you know it's a short cut out).\r\n\r\n2.  Go towards
+    the maze garden (a long way out, if you can get out)."
+  nextStates:
+  - {fileID: 11400000, guid: dba909079bd9b22449ec67e614c2a35b, type: 2}
+  - {fileID: 11400000, guid: ebe68af4bb8710f4780c1776b66a8c40, type: 2}
