@@ -10,28 +10,32 @@ public class Game : MonoBehaviour {
 
 	State state;
 
-	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
 		state = startingState;
 		textComponent.text = state.GetStateStory();
 	}
 	
-	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		ManageState();
 	}
 
-	private void ManageState(){
+	private void ManageState ()
+    {
 		var nextStates = state.GetNextStates();
-		if (Input.GetKeyDown(KeyCode.Alpha1)) {
-			state = nextStates[0];
-		}
-		else if (Input.GetKeyDown(KeyCode.Alpha2)) {
-			state = nextStates[1];
-		}
-		else if (Input.GetKeyDown(KeyCode.Alpha3)) {
-			state = nextStates[2];
-		}
+
+        for (int idx = 0; idx < nextStates.Length; idx++)
+        {
+            if (Input.GetKeyDown(KeyCode.Alpha1 + idx))
+            {
+                state = nextStates[idx];
+            }
+            else if (Input.GetKeyDown(KeyCode.Q))
+            {
+                Start();
+            }
+        }
 
 		textComponent.text = state.GetStateStory();
 	}

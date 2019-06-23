@@ -11,17 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3953b37f3584b34a89c2690d0394e00, type: 3}
   m_Name: A0. Introduction
   m_EditorClassIdentifier: 
-  storyText: 'Welcome to the game..
+  storyText: 'Choose wisely. Every moment counts...
 
 
-    Choose wisely. Every moment counts...
+    At each stage you''ll be asked to press "1" or "2" on the keyboard.
 
 
-    At each stage you''ll be asked to press a key on the keyboard, (ie. "1" or "2").
-
-
-    At any point in time, hit "Q" to quit.
-
+    At any point in time, hit "Q" to quit, and return here.
 
 
     Press "1" to continue.'

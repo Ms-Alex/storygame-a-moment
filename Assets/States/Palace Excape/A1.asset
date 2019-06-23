@@ -16,5 +16,5 @@ MonoBehaviour:
     in front of you.\n\r\n1. Attempt to fight the guards.\n\r\n2. Jump out the window
     on your left."
   nextStates:
-  - {fileID: 11400000, guid: 808ff9479c75bb14993246fe1fd02939, type: 2}
   - {fileID: 11400000, guid: d5f9561a4c07b8042b44d87ee5cb823a, type: 2}
+  - {fileID: 11400000, guid: 808ff9479c75bb14993246fe1fd02939, type: 2}
